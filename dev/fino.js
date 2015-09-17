@@ -50,4 +50,5 @@ var Fino = function(){
 	// Aliases
 	this._makeAliases('render', [ 'renderTemplate', 'r' ])
 	this._makeAliases('addTemplateFromString', [ 'loadTemplateFromString', 'addSTempl' ])
+	this._makeAliases('listTemplates', [ 'list' ])
 }
