@@ -12,7 +12,7 @@ f.addTemplateFromString('welcome', '<!DOCTYPE html><html lang="es"><head><meta c
 ```
 ### Render
 ```javascript
-console.log(t.render('welcome', { 'title': 'Página de bienvenida', 'message': '¡Bienvenido!' }))
+console.log(f.render('welcome', { 'title': 'Página de bienvenida', 'message': '¡Bienvenido!' }))
 ```
 
 # TODO list
